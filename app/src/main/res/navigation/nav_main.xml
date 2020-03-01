@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/main_fragment">
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="top.itning.yunshu.ui.fragment.MainFragment"
+        android:label="云舒"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_main_fragment_to_del_fragment"
+            app:destination="@id/del_fragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/del_fragment"
+        android:name="top.itning.yunshu.ui.fragment.DeleteFragment"
+        android:label="删除外置存储无用文件"
+        tools:layout="@layout/delete_fragment">
+        <action
+            android:id="@+id/action_del_fragment_to_main_fragment"
+            app:destination="@id/main_fragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+</navigation>
