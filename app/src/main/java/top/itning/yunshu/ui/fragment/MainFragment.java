@@ -28,6 +28,7 @@ public class MainFragment extends Fragment {
         mainFragmentBinding.setData(mViewModel);
         mainFragmentBinding.setLifecycleOwner(this);
         mainFragmentBinding.button2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_main_fragment_to_del_fragment));
+        mainFragmentBinding.button3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_main_fragment_to_openAppFragment));
         return mainFragmentBinding.getRoot();
     }
 }

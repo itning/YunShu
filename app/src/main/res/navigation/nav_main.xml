@@ -15,6 +15,9 @@
             app:destination="@id/del_fragment"
             app:enterAnim="@anim/fragment_fade_enter"
             app:exitAnim="@anim/fragment_fade_exit" />
+        <action
+            android:id="@+id/action_main_fragment_to_openAppFragment"
+            app:destination="@id/openAppFragment" />
     </fragment>
 
     <fragment
@@ -27,5 +30,13 @@
             app:destination="@id/main_fragment"
             app:enterAnim="@anim/fragment_fade_enter"
             app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/openAppFragment"
+        android:name="top.itning.yunshu.ui.fragment.OpenAppFragment"
+        android:label="OpenAppFragment" >
+        <action
+            android:id="@+id/action_openAppFragment_to_main_fragment"
+            app:destination="@id/main_fragment" />
     </fragment>
 </navigation>
