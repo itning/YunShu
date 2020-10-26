@@ -34,7 +34,7 @@ public class VideoWallPaperService extends WallpaperService {
             try {
                 mediaPlayer = new MediaPlayer();
                 mediaPlayer.setSurface(holder.getSurface());
-                AssetFileDescriptor fd = getApplicationContext().getAssets().openFd("wallpaper_video.mp4");
+                AssetFileDescriptor fd = getApplicationContext().getAssets().openFd("wallpaper_video_1.mp4");
                 mediaPlayer.setDataSource(fd);
                 mediaPlayer.setLooping(true);
                 mediaPlayer.setVolume(0f, 0f);
