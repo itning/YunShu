@@ -10,5 +10,5 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/itning/YunShu.svg)](https://github.com/itning/YunShu/commits)
 [![GitHub release](https://img.shields.io/github/release/itning/YunShu.svg)](https://github.com/itning/YunShu/releases)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/itning/YunShu.svg)](https://github.com/itning/YunShu)
-[![HitCount](http://hits.dwyl.io/itning/YunShu.svg)](http://hits.dwyl.io/itning/YunShu)
+[![HitCount](http://hits.dwyl.com/itning/YunShu.svg)](http://hits.dwyl.com/itning/YunShu)
 [![language](https://img.shields.io/badge/language-Java-green.svg)](https://github.com/itning/YunShu)
